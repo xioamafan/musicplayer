@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './components/header'
 import Player from './page/player'
 import MusicList from './page/musicList'
-import { MUSIC_LIST } from './config/musiclist'
+import { MUSIC_LIST } from '../dist/config/musiclist'
 import {Router,IndexRoute,Link,Route,hashHistory } from 'react-router'
 import Pubsub from 'pubsub-js'
 //这个js只是对页面进行管理
